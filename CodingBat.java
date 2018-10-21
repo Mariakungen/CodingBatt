@@ -8,11 +8,13 @@ extraEnd("Hi") → "HiHiHi
 
 public class CodingBat {
 	public static void main (String []args) {
-		  
+	} //Är väl lite konstigt att sätta en måsvinge här, men en metod kan inte vara i en annan???
+	public String calculateAnswer(String word) { 
+
 		
 		//System.out.println("Kärlek"); 
 		
-		String word = "Kärlek";
+		//String word = "Kärlek";
 		int ordLängd = word.length();
 		System.out.println(ordLängd);
 	
@@ -21,6 +23,8 @@ public class CodingBat {
 		char allraSista = word.charAt(word.length() -1);		
 		
 		System.out.println(nästSista+""+allraSista+""+nästSista+""+allraSista+""+nästSista+""+allraSista);
+		
+		String calculateAnswer (String Kärlek); //å vad är fel här då??
 		
 		}
 	}
